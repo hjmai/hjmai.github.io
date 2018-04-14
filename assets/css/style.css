@@ -1,0 +1,22 @@
+.topnav{
+    background: blue;
+}
+#name{
+    color: white;
+    padding: 5px 20px 5px 20px;
+    background: green;
+    float: left;
+    margin-left: 10%;
+}
+#contact{
+    margin: 20px;
+    float: right;
+}
+#about{
+    margin: 20px;
+    float: right;
+}
+#portfolio{
+    margin: 20px;
+    float: right;
+}
