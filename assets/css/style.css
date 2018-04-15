@@ -57,6 +57,7 @@ body{
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/tree_bark.png");
+    margin-bottom: 80px;
 }
 .contentWrapper{
     margin: 0 auto;
@@ -71,7 +72,7 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 30px;
     background-color: #666666;
     color: white;
     text-align: center;
