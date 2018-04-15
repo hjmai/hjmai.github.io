@@ -1,22 +1,74 @@
-.topnav{
-    background: blue;
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+    border-bottom: 2px solid #cccccc;
+    padding-top: 3%;
 }
-#name{
+.topnav span{
+    font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
-    padding: 5px 20px 5px 20px;
-    background: green;
-    float: left;
-    margin-left: 10%;
+    background: #4aaaa5;
+    padding: 0px 15px 0px 15px;
+    margin-left: 15%;
+    font-size: 30px;
 }
-#contact{
-    margin: 20px;
+/* Style the links inside the navigation bar */
+.topnav a {
     float: right;
+    color: gray;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 17px;
 }
-#about{
-    margin: 20px;
-    float: right;
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
 #portfolio{
-    margin: 20px;
-    float: right;
+    border-right: 1px solid gray;
+}
+#about{
+    border-right: 1px solid gray;
+}
+#contact{
+    margin-right: 20%;
+}
+#header, h1, h2, h3, h4, h5, h6{
+    color: #4aaaa5;
+}
+.contentHeader{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #cccccc;
+}
+.mainBody img{
+    float: left;
+    width: 200px;
+    margin: 0px 10px 0px 0px;
+}
+body{
+    background: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.contentWrapper{
+    margin-top: 40px;
+    margin-left: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 960px;
+    border: 2px solid #dddddd;
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    background-color: #666666;
+    color: white;
+    text-align: center;
 }
