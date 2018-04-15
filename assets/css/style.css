@@ -1,3 +1,10 @@
+a{
+    text-decoration: none;
+}
+.navContent{
+    margin: 0 auto;
+    width: 960px;
+}
 .topnav {
     background-color: #fff;
     overflow: hidden;
@@ -19,7 +26,6 @@
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    text-decoration: none;
     font-size: 17px;
 }
 /* Add a color to the active/current link */
@@ -84,7 +90,25 @@ body{
     font-size: 14px;
     margin-bottom: 5px;
 }
-.navContent{
-    margin: 0 auto;
-    width: 960px;
+.portfolio{
+    list-style-type: none;
+    text-align: center;
+}
+.project{
+    padding-left: 20px;
+    display: inline-block;
+    position: relative;
+    height: 350px;
+    width: 350px;
+}
+.project img{
+    height: 350px;
+}
+.project-name{
+    position: relative;
+    top: -90px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
 }
