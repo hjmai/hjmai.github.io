@@ -76,6 +76,7 @@ body{
     background-color: #666666;
     color: white;
     text-align: center;
+    border-top: 3px solid green;
 }
 .nameField, .emailField, .messageField{
     width: 100%;
