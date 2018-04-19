@@ -5,7 +5,7 @@ a{
     margin: 0 auto;
     width: 960px;
 }
-.topnav {
+.topnav{
     position: fixed;
     left: 0;
     top: 0;
@@ -24,7 +24,7 @@ a{
     font-size: 30px;
 }
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav a{
     float: right;
     color: gray;
     text-align: center;
@@ -32,11 +32,10 @@ a{
     padding-right: 10px;
     font-size: 17px;
 }
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+.topnav a:hover{
+    color: #4aaaa5;
 }
+/* Add a color to the active/current link */
 #portfolio{
     border-right: 1px solid gray;
 }
