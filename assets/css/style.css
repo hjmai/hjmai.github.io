@@ -61,6 +61,7 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/tree_bark.png");
     margin-bottom: 80px;
+    line-height: 1.5;
 }
 .contentWrapper{
     margin-top: 8%;
