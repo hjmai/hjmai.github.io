@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+}
+body {
+    margin: 0px;
+}
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3vh;
+}
+.hero-text h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icons {
+    margin: 1vw;
+    font-size: 5vh;
+}
+a:visited {
+    color: white;
+}
+a:link {
+    text-decoration: none;
+}
+.seeMore {
+    border: 1px solid white;
+    padding: 1vh 2vw;
+}
+.seeMore:hover {
+    background-color: white;
+    color: black;
+}
