@@ -7,24 +7,44 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
     <!-- Hero Image -->
-    <div class="hero">
+    <div class="hero animatedParent">
         <div class="hero-text">
             <h2>Jonathan Mai</h2>
             <h1>Full Stack Engineer</h1>
             <p>
                 <a href="https://www.linkedin.com/in/hjm0809/" class="icons"><i class="fab fa-linkedin"></i></a><a href="https://www.github.com/hjmai/" class="icons"><i class="fab fa-github-square"></i></a>
             </p>
-            <a href="" class="seeMore">View Profile <i class="fas fa-arrow-right"></i></a>
+            <a class="seeMore">View Profile <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
+
+    <!-- About Me -->
+    <div class="about-me animatedParent" data-appear-top-offset='-100'>
+        <div class="left animated bounceInLeft">
+            <img class="profile" src="./assets/images/profile.jpg"/>
+        </div>
+        <div class="right animated bounceInRight">
+            <div class="about-me-text">
+                <h3>About Me</h3>
+                <hr>
+                <p style="font-family: Open Sans">I graduated from California State University, 
+                    Fullerton in 2017 as a computer science major and chose the full stack engineer career path. </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects"></div>
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <script src="./assets/js/css3-animate-it.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>

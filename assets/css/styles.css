@@ -1,9 +1,12 @@
 body, html {
     height: 100%;
+    font-family: 'Roboto'
 }
 body {
     margin: 0px;
 }
+
+/* All header stylings */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/background.jpg");
     height: 100vh;
@@ -42,4 +45,30 @@ a:link {
 .seeMore:hover {
     background-color: white;
     color: black;
+    cursor: pointer;
+}
+
+/* About me styling */
+.about-me {
+    background: linear-gradient(to bottom right, rgb(180, 231, 231) , white);
+    height: 40vh;
+}
+.about-me-text {
+    width: 75%;
+}
+.left, .right {
+    padding-top: 5vh;
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.profile {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+/* Project Styles */
+.projects {
+    height: 100vh;
 }
