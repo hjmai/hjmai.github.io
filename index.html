@@ -1,45 +1,52 @@
-<!-- Index Page -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>About Me | Jonathan Mai</title>
-    </head>
-    <body>
-        <div class="topnav">
-            <div class="navContent">
-                <span>Jonathan Mai</span>
-                <a href="contact.html" id="contact">Contact</a>
-                <a href="portfolio.html" id="portfolio">Portfolio</a>
-                <a href="index.html" id="about">About</a>
-            </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/animations.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <!-- Hero Image -->
+    <div class="hero animatedParent">
+        <div class="hero-text">
+            <h2>Jonathan Mai</h2>
+            <h1>Full Stack Engineer</h1>
+            <p>
+                <a href="https://www.linkedin.com/in/hjm0809/" class="icons"><i class="fab fa-linkedin"></i></a><a href="https://www.github.com/hjmai/" class="icons"><i class="fab fa-github-square"></i></a>
+            </p>
+            <a class="seeMore">View Profile <i class="fas fa-arrow-right"></i></a>
         </div>
-        <div class="contentWrapper">
-            <h2 class="contentHeader">About Me</h2>
-            <div class="mainBody">
-                <img src="assets/images/img.jpg">
-                <p>
-                    My name is Jonathan Mai. I am a California State University, Fullerton
-                    Computer Science graduate of class 2017. I enjoy several things that has
-                    to do with coding, particularly being full stack web development. I am
-                    currently working at a start up company in the real estate industry as
-                    a software dev tester. I currently write several automation scripts to
-                    help run end to end testing. Although this isn't something that I originally
-                    intended to do, it has been a great experience and my end goal is to become
-                    a full stack engineer at the company. On my off time, I enjoy playing computer
-                    games and photography. I mainly play Overwatch but I am open to trying out
-                    other games. In the past, I have coded my own photography website to host
-                    my own images on AWS but I eventually plan to clean that up by applying a
-                    lot of the skills that I learn in the UCI Coding Bootcamp. If there are any
-                    suggestions to help improve my website, I am more than happy to hear them!
+    </div>
+
+    <!-- About Me -->
+    <div class="about-me animatedParent" data-appear-top-offset='-100'>
+        <div class="left animated bounceInLeft">
+            <img class="profile" src="./assets/images/profile.jpg"/>
+        </div>
+        <div class="right animated bounceInRight">
+            <div class="about-me-text">
+                <h3>About Me</h3>
+                <hr>
+                <p style="font-family: Open Sans">I graduated from California State University, 
+                    Fullerton in 2017 as a computer science major and chose the full stack engineer career path.
+                    
                 </p>
             </div>
         </div>
-        <div id="footerContainer">
-            <div id="footer">
-                Copyright &#9426
-            </div>
-        </div>
-    </body>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects"></div>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="./assets/js/css3-animate-it.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
 </html>
