@@ -31,11 +31,6 @@ body {
 .icons {
     margin: 1vw;
     font-size: 5vh;
-}
-.icons:visited {
-    color: white;
-}
-a:visited {
     color: white;
 }
 a:link {
@@ -54,7 +49,7 @@ a:link {
 /* About me styling */
 .about-me {
     background: linear-gradient(to bottom right, rgb(180, 231, 231) , white);
-    height: 40vh;
+    height: 50vh;
 }
 .about-me-text {
     width: 75%;
