@@ -32,6 +32,9 @@ body {
     margin: 1vw;
     font-size: 5vh;
 }
+.icons:visited {
+    color: white;
+}
 a:visited {
     color: white;
 }
