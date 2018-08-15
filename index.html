@@ -7,6 +7,7 @@
     <title>Jon Mai's Portfolio</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/animations.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
@@ -29,27 +30,31 @@
     </div>
 
     <!-- About Me -->
-    <div class="about-me animatedParent" data-appear-top-offset='-100'>
-        <div class="left animated bounceInLeft">
-            <img class="profile" src="./assets/images/profile.jpg"/>
-        </div>
-        <div class="right animated bounceInRight">
-            <div class="about-me-text">
-                <h1>About Me</h1>
-                <hr>
-                <p style="font-family: Open Sans">I graduated from California State University, 
-                    Fullerton in 2017 as a computer science major and I am on the full stack 
-                    engineer career path. I enjoy working with a team and grab every opportunity
-                    where I can grow and learn. From my experience, I have worked with several 
-                    full stack technologies including Bootstrap, Materialize, JQuery, NodeJS, MySQL, 
-                    SequelizeJS, and MongoDB.
-                </p>
+    <div class="row section text-center">
+        <div class="about-me animatedParent" data-appear-top-offset='-100'>
+            <div class="col-md-6 align-middle">
+                <img src="./assets/images/profile.jpg" class="img-fluid profile">
+            </div>
+            <div class="col-md-6">
+                <div class="animated bounceInRight">
+                    <div class="about-me-text">
+                        <h1>About Me</h1>
+                        <hr>
+                        <p style="font-family: Open Sans">I graduated from California State University, 
+                            Fullerton in 2017 as a computer science major and I am on the full stack 
+                            engineer career path. I enjoy working with a team and grab every opportunity
+                            where I can grow and learn. From my experience, I have worked with several 
+                            full stack technologies including Bootstrap, Materialize, JQuery, NodeJS, MySQL, 
+                            SequelizeJS, and MongoDB.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <!-- Projects -->
-    <div class="projects"></div>
+    <!-- Transition Image -->
+    <div class="firstTransition"></div>
+    <!-- Skills -->
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

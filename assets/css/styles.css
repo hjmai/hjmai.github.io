@@ -26,6 +26,7 @@ body {
 }
 .hero-text h1 {
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 .icons {
@@ -37,6 +38,7 @@ a:link {
     text-decoration: none;
 }
 .seeMore {
+    color: white;
     border: 1px solid white;
     padding: 1vh 2vw;
 }
@@ -54,19 +56,23 @@ a:link {
 .about-me-text {
     width: 75%;
 }
-.left, .right {
-    padding-top: 5vh;
-    text-align: center;
-    width: 50%;
-    float: left;
-}
 .profile {
     width: 30%;
     height: 30%;
     border-radius: 50%;
 }
 
-/* Project Styles */
-.projects {
-    height: 100vh;
+/* First Transition Image */
+.firstTransition {
+    background-image: url("../images/first.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20vh;
+    width: 100vw;
+    position: relative;
+}
+
+.section {
+    height: 50vh;
 }
