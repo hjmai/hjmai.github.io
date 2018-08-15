@@ -1,0 +1,27 @@
+.my-auto {
+    color: white;
+    margin-top: 3vh !important;
+}
+
+.btn-primary {
+    font-size: 3vh;
+    background-color: transparent !important;
+    border-color: white !important;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: transparent !important;
+    border-color: white !important;
+}
+.dropshadow {
+    text-shadow: 1px 1px rgba(0, 0, 0)
+}
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.social-link {
+    font-size: 5vh;
+}
