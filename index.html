@@ -19,7 +19,7 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/stylish-portfolio.css">
     <link rel="stylesheet" href="./css/styles.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body id="page-top">
@@ -47,7 +47,7 @@
 
     <!-- Header -->
     <header class="masthead d-flex">
-      <div class="container text-center my-auto">
+      <div class="container text-center my-auto" data-aos="fade-down" data-aos-duration="1000">
         <h2><b>Jonathan Mai</b></h2>
         <h1>Full Stack Engineer</h1>
         <br>
@@ -72,16 +72,16 @@
     <section class="content-section bg-light" id="about">
       <div class="container text-center">
         <div class="row">
-          <div class="col-lg-4 mx-auto  ">
+          <div class="col-lg-4 mx-auto" data-aos="fade-right" data-aos-duration="500" data-aos-anchor-placement="center-bottom" data-aos-anchor="#about">
             <img class="img-fluid profile" src="./img/profile.jpg"/>
           </div>
-          <div class="col-lg-8  " >
+          <div class="col-lg-8" data-aos="fade-left" data-aos-duration="500" data-aos-anchor-placement="center-bottom" data-aos-anchor="#about">
             <h2>About Me</h2>
             <hr>
             <p>
               I graduated from California State University, Fullerton in 2017 as a computer science major and 
               I am on the full stack engineer career path. I enjoy working with a team where I can learn, grow, and
-              help other's achieve their success. From my experience, I have worked with several full stack technologies 
+              help others achieve their success. From my experience, I have worked with several full stack technologies 
               including Bootstrap, Materialize, JQuery, NodeJS, MySQL, SequelizeJS, and MongoDB. My favorite development
               stack at the moment is Handlebars and SequelizeJS but I am beginning to learn ReactJS and MongoDb and loving every lesson.
               Whether it is handling server requests, fleshing out a beautiful front-end, creating a database back-end, or wiring up
@@ -96,9 +96,9 @@
     <section class="content-section bg-primary text-white text-center" id="skills">
       <div class="container">
         <div class="content-section-heading">
-          <h2 class="mb-5">Skills</h2>
+          <h2 class="mb-5" data-aos="fade-in" data-aos-duration="500" data-aos-anchor-placement="center-bottom" data-aos-anchor="#skills">Skills</h2>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-left" data-aos-duration="500" data-aos-anchor-placement="top-center" data-aos-anchor="#skills">
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="fab fa-html5"></i>
@@ -132,7 +132,7 @@
             </h4>
           </div>
         </div>
-        <div class="row" style="padding-top: 3vh;">
+        <div class="row" style="padding-top: 3vh;" data-aos="fade-right" data-aos-duration="500" data-aos-anchor-placement="top-center" data-aos-anchor="#skills">
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="fab fa-node-js"></i>
@@ -172,12 +172,12 @@
     <!-- Portfolio -->
     <section class="content-section" id="portfolio">
       <div class="container">
-        <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0  ">Portfolio</h3>
+        <div class="content-section-heading text-center" data-aos="zoom-in" data-aos-anchor="#portfolio" data-aos-anchor-placement="top-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
           <h2 class="mb-5  ">My Top Projects</h2>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="flip-up" data-aos-anchor="#portfolio" data-aos-anchor-placement="top-center" data-aos-duration="1000">
             <a class="portfolio-item" href="https://github.com/hjmai/Project2">
               <span class="caption">
                 <span class="caption-content">
@@ -188,7 +188,7 @@
               <img class="img-fluid" src="./img/portfolio-1.png" alt="">
             </a>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="flip-up" data-aos-anchor="#portfolio" data-aos-anchor-placement="top-center" data-aos-duration="1000" data-aos-delay="300">
             <a class="portfolio-item" href="http://jmaiphotography.com/">
               <span class="caption">
                 <span class="caption-content">
@@ -199,7 +199,7 @@
               <img class="img-fluid" src="./img/portfolio-3.png" alt="">
             </a>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="flip-up" data-aos-anchor="#portfolio" data-aos-anchor-placement="top-center" data-aos-duration="1000" data-aos-delay="600">
             <a class="portfolio-item" href="https://hjmai.github.io/pokemonHangman/">
               <span class="caption">
                 <span class="caption-content">
@@ -209,7 +209,7 @@
               <img class="img-fluid" src="./img/portfolio-4.png" alt="">
             </a>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="flip-up" data-aos-anchor="#portfolio" data-aos-anchor-placement="top-center" data-aos-duration="1000" data-aos-delay="900">
             <a class="portfolio-item" href="https://github.com/hjmai/BootcampProject1">
               <span class="caption">
                 <span class="caption-content">
@@ -220,7 +220,7 @@
               <img class="img-fluid" src="./img/portfolio-2.png" alt="">
             </a>
           </div>
-          <div class="col-lg-12 text-center">
+          <div class="col-lg-12 text-center" data-aos="flip-up" data-aos-anchor="#portfolio" data-aos-anchor-placement="top-center" data-aos-duration="1000" data-aos-delay="1200">
               <a class="portfolio-item" href="https://github.com/hjmai/">
                 <span class="caption">
                   <span class="caption-content">
@@ -254,7 +254,10 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
   </body>
 
 </html>
